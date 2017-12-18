@@ -8,4 +8,5 @@ setup(name='TCsorgu',
       author_email='dorukgezici@gmail.com',
       license='MIT',
       packages=['TCsorgu'],
+      scripts=['bin/TCsorgu'],
       zip_safe=False)

@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+from TCsorgu import check_tc_id
+
+parser = argparse.ArgumentParser(description='TC Identity Number Check')
+parser.add_argument("id", type=str, help="TC Identity Number")
+parser.add_argument("name", type=str, help="First Name")
+parser.add_argument("surname", type=str, help="Last Name")
+parser.add_argument("birth_year", type=str, help="Birth Year")
+args = parser.parse_args()
+is_valid = check_tc_id(args.id, args.name, args.surname, args.birth_year)
+print(is_valid)
