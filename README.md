@@ -1,4 +1,5 @@
 # TCsorgu
+[![PyPI](https://img.shields.io/pypi/l/TCsorgu.svg)]() [![PyPI](https://img.shields.io/pypi/v/TCsorgu.svg)]()
 TC Identity Number Check
 
 ## Installation
