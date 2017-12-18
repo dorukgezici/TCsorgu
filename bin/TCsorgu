@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 from TCsorgu import check_tc_id
+import argparse
 
 parser = argparse.ArgumentParser(description='TC Identity Number Check')
 parser.add_argument("id", type=str, help="TC Identity Number")
