@@ -4,6 +4,11 @@ TC Identity Number Check
 ## Installation
 - `pip3 install TCsorgu`
 
-## Usage
+## Usage as CLI
 - `TCsorgu <id> <name> <surname> <birth_year>`
-- To see the options `TCsorgu --help`
+- Returns and prints bool (True or False)
+- To see the parameters: `TCsorgu --help`
+
+## Usage as Package
+- `from TCsorgu import check_tc_id`
+- `is_valid = check_tc_id(id, name, surname, birth_year)`
