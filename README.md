@@ -5,5 +5,5 @@ TC Identity Number Check
 - `pip3 install TCsorgu`
 
 ## Usage
-- `TCsorgu <id> <name> <surname> <birth_year>
+- `TCsorgu <id> <name> <surname> <birth_year>`
 - To see the options `TCsorgu --help`
