@@ -3,6 +3,7 @@
 
 # Compiled python modules.
 *.pyc
+build/
 
 # Setuptools distribution folder.
 /dist/
