@@ -17,10 +17,10 @@ headers = {'Content-Type': 'application/soap+xml; charset=utf-8'}
 
 def check_tc_id(id, name, surname, birth_year):
     element = ET.fromstring(xml)
-    element[0][0][0].text = id
-    element[0][0][1].text = name
-    element[0][0][2].text = surname
-    element[0][0][3].text = birth_year
+    element[0][0][0].text = str(id).upper()
+    element[0][0][1].text = str(name).upper()
+    element[0][0][2].text = str(surname).upper()
+    element[0][0][3].text = str(birth_year).upper()
     data = ET.tostring(element, encoding="UTF-8")
     request = requests.post("https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx", data=data, headers=headers)
     response_element = ET.fromstring(request.content)
