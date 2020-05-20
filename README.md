@@ -1,5 +1,5 @@
 # TCsorgu
-[![PyPI](https://img.shields.io/pypi/v/TCsorgu.svg)]() [![PyPI](https://img.shields.io/pypi/status/Django.svg)]() [![PyPI](https://img.shields.io/pypi/l/TCsorgu.svg)]()
+[![PyPI](https://img.shields.io/pypi/v/TCsorgu.svg)]() [![PyPI](https://img.shields.io/github/license/dorukgezici/TCsorgu)]()
 
 TC Identity Number Check
 
@@ -13,7 +13,7 @@ TC Identity Number Check
 
 ## Usage as Package
 - `from TCsorgu import check_tc_id`
-- `is_valid = check_tc_id(id, name, surname, birth_year)`
+- `is_valid: bool = check_tc_id(id, name, surname, birth_year)`
 
 ## Service
 - Service provided by [tckimlik.nvi.gov.tr](https://tckimlik.nvi.gov.tr)
